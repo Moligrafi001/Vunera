@@ -59,6 +59,7 @@ end
 -- Tabs
 local Tabs = {
   Game = Window:Tab({ Title = "Game", Icon = "gamepad-2"}),
+  Admin = Window:Tab({ Title = "Admin", Icon = "square-terminal"}),
   Remote = Window:Tab({ Title = "Remotes", Icon = "circle-power"}),
   Explorer = Window:Tab({ Title = "Explorer", Icon = "book-open-text"}),
   Script = Window:Tab({ Title = "Script", Icon = "scroll-text"}),
