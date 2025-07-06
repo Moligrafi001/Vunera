@@ -165,7 +165,7 @@ Tabs.Script:Button({
         print(script:GetFullName())
       end
       WindUI:Notify({
-        Title = "Scan complete!",
+        Title = "Scan complete! " .. #result .. " results!",
         Content = "Valid modules printed to console.",
         Icon = "check",
         Duration = 5
